@@ -1,0 +1,70 @@
+/* Apply to whole page */
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5); /* colorful background */
+  font-family: Arial, sans-serif;
+}
+
+/* Container style */
+div {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+}
+
+/* Headline */
+#headLine {
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Password input */
+#passWord {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+#passWord:focus {
+  border-color: #74ebd5;
+  outline: none;
+}
+
+/* Message paragraph */
+#message {
+  color: #ff4d4f;
+  margin-bottom: 20px;
+  font-size: 14px;
+  min-height: 20px;
+}
+
+/* Login button */
+#loginButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #74ebd5;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#loginButton:hover {
+  background-color: #67d3c3;
+}
