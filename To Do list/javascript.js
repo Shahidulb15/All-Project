@@ -13,5 +13,6 @@ addtask.onclick = function () {
     };
     li.appendChild(deleteBtn);
     tasklist.appendChild(li);
+    document.querySelector("#taskInput").value = "";
   }
 };
